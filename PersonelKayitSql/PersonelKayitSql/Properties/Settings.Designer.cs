@@ -26,8 +26,8 @@ namespace PersonelKayitSql.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-NGAQ6L1\\SQLEXPRESS;Initial Catalog=PersonelVeriTabani;Integra" +
-            "ted Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-NGAQ6L1\\SQLEXPRESS01;Initial Catalog=PersonelVeriTabani;Integ" +
+            "rated Security=True")]
         public string PersonelVeriTabaniConnectionString {
             get {
                 return ((string)(this["PersonelVeriTabaniConnectionString"]));

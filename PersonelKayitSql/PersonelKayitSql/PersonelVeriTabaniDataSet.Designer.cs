@@ -279,7 +279,7 @@ namespace PersonelKayitSql {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class Tbl_PersonelDataTable : global::System.Data.TypedTableBase<Tbl_PersonelRow> {
             
-            private global::System.Data.DataColumn columnPersonelid;
+            private global::System.Data.DataColumn columnPersonelId;
             
             private global::System.Data.DataColumn columnPerAd;
             
@@ -328,9 +328,9 @@ namespace PersonelKayitSql {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn PersonelidColumn {
+            public global::System.Data.DataColumn PersonelIdColumn {
                 get {
-                    return this.columnPersonelid;
+                    return this.columnPersonelId;
                 }
             }
             
@@ -451,7 +451,7 @@ namespace PersonelKayitSql {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
-                this.columnPersonelid = base.Columns["Personelid"];
+                this.columnPersonelId = base.Columns["PersonelId"];
                 this.columnPerAd = base.Columns["PerAd"];
                 this.columnPerSoyad = base.Columns["PerSoyad"];
                 this.columnPerSehir = base.Columns["PerSehir"];
@@ -463,8 +463,8 @@ namespace PersonelKayitSql {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             private void InitClass() {
-                this.columnPersonelid = new global::System.Data.DataColumn("Personelid", typeof(short), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnPersonelid);
+                this.columnPersonelId = new global::System.Data.DataColumn("PersonelId", typeof(short), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPersonelId);
                 this.columnPerAd = new global::System.Data.DataColumn("PerAd", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnPerAd);
                 this.columnPerSoyad = new global::System.Data.DataColumn("PerSoyad", typeof(string), null, global::System.Data.MappingType.Element);
@@ -477,11 +477,11 @@ namespace PersonelKayitSql {
                 base.Columns.Add(this.columnPerDurum);
                 this.columnPerMeslek = new global::System.Data.DataColumn("PerMeslek", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnPerMeslek);
-                this.columnPersonelid.AutoIncrement = true;
-                this.columnPersonelid.AutoIncrementSeed = -1;
-                this.columnPersonelid.AutoIncrementStep = -1;
-                this.columnPersonelid.AllowDBNull = false;
-                this.columnPersonelid.ReadOnly = true;
+                this.columnPersonelId.AutoIncrement = true;
+                this.columnPersonelId.AutoIncrementSeed = -1;
+                this.columnPersonelId.AutoIncrementStep = -1;
+                this.columnPersonelId.AllowDBNull = false;
+                this.columnPersonelId.ReadOnly = true;
                 this.columnPerAd.MaxLength = 10;
                 this.columnPerSoyad.MaxLength = 20;
                 this.columnPerSehir.MaxLength = 13;
@@ -628,12 +628,12 @@ namespace PersonelKayitSql {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public short Personelid {
+            public short PersonelId {
                 get {
-                    return ((short)(this[this.tableTbl_Personel.PersonelidColumn]));
+                    return ((short)(this[this.tableTbl_Personel.PersonelIdColumn]));
                 }
                 set {
-                    this[this.tableTbl_Personel.PersonelidColumn] = value;
+                    this[this.tableTbl_Personel.PersonelIdColumn] = value;
                 }
             }
             
@@ -965,7 +965,7 @@ namespace PersonelKayitSql.PersonelVeriTabaniDataSetTableAdapters {
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "Tbl_Personel";
-            tableMapping.ColumnMappings.Add("Personelid", "Personelid");
+            tableMapping.ColumnMappings.Add("PersonelId", "PersonelId");
             tableMapping.ColumnMappings.Add("PerAd", "PerAd");
             tableMapping.ColumnMappings.Add("PerSoyad", "PerSoyad");
             tableMapping.ColumnMappings.Add("PerSehir", "PerSehir");
@@ -1000,7 +1000,7 @@ namespace PersonelKayitSql.PersonelVeriTabaniDataSetTableAdapters {
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT Personelid, PerAd, PerSoyad, PerSehir, PerMaas, PerDurum, PerMeslek FROM d" +
+            this._commandCollection[0].CommandText = "SELECT PersonelId, PerAd, PerSoyad, PerSehir, PerMaas, PerDurum, PerMeslek FROM d" +
                 "bo.Tbl_Personel";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }

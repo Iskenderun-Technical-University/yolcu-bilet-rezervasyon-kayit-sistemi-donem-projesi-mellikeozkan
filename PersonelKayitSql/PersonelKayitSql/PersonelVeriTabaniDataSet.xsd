@@ -25,14 +25,14 @@
                 </InsertCommand>
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
-                    <CommandText>SELECT Personelid, PerAd, PerSoyad, PerSehir, PerMaas, PerDurum, PerMeslek FROM dbo.Tbl_Personel</CommandText>
+                    <CommandText>SELECT PersonelId, PerAd, PerSoyad, PerSehir, PerMaas, PerDurum, PerMeslek FROM dbo.Tbl_Personel</CommandText>
                     <Parameters />
                   </DbCommand>
                 </SelectCommand>
               </DbSource>
             </MainSource>
             <Mappings>
-              <Mapping SourceColumn="Personelid" DataSetColumn="Personelid" />
+              <Mapping SourceColumn="PersonelId" DataSetColumn="PersonelId" />
               <Mapping SourceColumn="PerAd" DataSetColumn="PerAd" />
               <Mapping SourceColumn="PerSoyad" DataSetColumn="PerSoyad" />
               <Mapping SourceColumn="PerSehir" DataSetColumn="PerSehir" />
@@ -53,7 +53,7 @@
         <xs:element name="Tbl_Personel" msprop:Generator_TableClassName="Tbl_PersonelDataTable" msprop:Generator_TableVarName="tableTbl_Personel" msprop:Generator_TablePropName="Tbl_Personel" msprop:Generator_RowDeletingName="Tbl_PersonelRowDeleting" msprop:Generator_RowChangingName="Tbl_PersonelRowChanging" msprop:Generator_RowEvHandlerName="Tbl_PersonelRowChangeEventHandler" msprop:Generator_RowDeletedName="Tbl_PersonelRowDeleted" msprop:Generator_UserTableName="Tbl_Personel" msprop:Generator_RowChangedName="Tbl_PersonelRowChanged" msprop:Generator_RowEvArgName="Tbl_PersonelRowChangeEvent" msprop:Generator_RowClassName="Tbl_PersonelRow">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Personelid" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnPersonelid" msprop:Generator_ColumnPropNameInRow="Personelid" msprop:Generator_ColumnPropNameInTable="PersonelidColumn" msprop:Generator_UserColumnName="Personelid" type="xs:short" />
+              <xs:element name="PersonelId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnPersonelId" msprop:Generator_ColumnPropNameInRow="PersonelId" msprop:Generator_ColumnPropNameInTable="PersonelIdColumn" msprop:Generator_UserColumnName="PersonelId" type="xs:short" />
               <xs:element name="PerAd" msprop:Generator_ColumnVarNameInTable="columnPerAd" msprop:Generator_ColumnPropNameInRow="PerAd" msprop:Generator_ColumnPropNameInTable="PerAdColumn" msprop:Generator_UserColumnName="PerAd" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">

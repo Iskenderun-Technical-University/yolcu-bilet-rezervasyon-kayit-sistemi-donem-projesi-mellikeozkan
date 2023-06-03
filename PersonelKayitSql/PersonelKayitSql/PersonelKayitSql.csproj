@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{99A587CB-1941-45DC-BDB0-A8E5B75DC61D}</ProjectGuid>
+    <ProjectGuid>{6C2A782E-B8D0-4468-9466-77C2DFFEEAA0}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>PersonelKayitSql</RootNamespace>
     <AssemblyName>PersonelKayitSql</AssemblyName>
